@@ -1,4 +1,4 @@
-.container-fluid {
+ .container-fluid {
   max-width: 100vw !important;
   width: 100% !important;
 }
@@ -108,11 +108,27 @@ button {
 .about {
   background-image: url(./images/about.jpg);
   width: 100% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.abaut2 {
+  background-image: url(./images/loyhalash.jpg) !important;
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 .flex-abaut {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  height: 800px;
+}
+.flex-abaut2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   height: 800px;
 }
 .about .about__main {
@@ -136,6 +152,43 @@ p {
   line-height: 0;
 }
 
+
+.loyhalash{
+  background-color: #02442b;
+  width: 100%;
+
+  padding: 60px;
+}
+.loyhalash{
+
+  width: 100%;
+height: 900px;
+  padding: 100px;
+}
+.text-loyha{
+  text-align: center;
+  font-size: 7rem;
+  color: #ffeb38 !important;
+}
+.text-loyha2{
+  text-align: center;
+  font-size: 7rem;
+  color: #02442b !important;
+}
+.loyhalash-l{
+
+  font-size: 3rem;
+}
+.loyhalash-r{
+  margin-top: 50px;
+text-align: right;
+  font-size: 2rem;
+  color: #ffeb38 !important;
+}
+.kerede{
+  line-height: 40px !important;
+}
+
 @media (max-width: 768px) {
   .hero-img {
     width: 70%;
@@ -146,6 +199,8 @@ p {
   .h1 {
     font-size: 4rem;
   }
+
+
   .h2 {
     font-size: 1.4rem;
   }
@@ -154,12 +209,43 @@ p {
   }
   .about .about__title {
     line-height: 45px;
-    margin: 0 !important;
+   
   }
   .about {
     background-position: center;
   }
   .about__text {
     font-weight: 600;
+  }
+
+  .text-loyha{
+  
+    font-size: 2.7rem;
+
+  }
+ .text-loyha2{
+  
+    font-size: 1.5rem;
+
+  }
+  .loyhalash-l{
+  margin-top: 50px;
+    font-size: 1.4rem;
+  }
+  .loyhalash-r{
+    margin-top: 50px;
+
+    font-size: 1.2rem;
+ 
+  }
+  .loyhalash{
+    height: 100vh;
+    padding: 60px;
+  }
+  .abaut2 {
+    background-position: center bottom;
+  }
+  .kerede{
+   margin: 50px 0  !important;
   }
 }
